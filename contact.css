@@ -113,7 +113,7 @@ body {
 }
 
 .contact-form .cta-button {
-    background: #e74c3c;
+    background: rgb(44, 44, 44);
     color: #fff;
     border: none;
     padding: 0.8rem;
@@ -126,7 +126,7 @@ body {
 }
 
 .contact-form .cta-button:hover {
-    background: #c0392b;
+    background: rgb(63, 63, 63);
 }
 
 .contact-image {
