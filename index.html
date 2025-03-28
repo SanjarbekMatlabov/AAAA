@@ -7,6 +7,13 @@
     <title>UIIA CARGO INC</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+        .newsletter-form { padding: 20px; }
+        .newsletter-form input[type="email"] { width: 100%; padding: 8px; margin-bottom: 10px; }
+        .cta-button { padding: 10px 20px; background: #007bff; color: white; border: none; cursor: pointer; }
+        .cta-button:disabled { background: #ccc; cursor: not-allowed; }
+    </style>
 </head>
 
 <body>
@@ -45,6 +52,8 @@
             <img src="./assets/image.png" alt="Trucking Image">
         </div>
     </section>
+
+    <!-- Why Choose Us Section -->
     <section class="why-choose-us" id="about">
         <h2>Why Choose Us</h2>
         <div class="cards-container">
@@ -74,6 +83,7 @@
             </div>
         </div>
     </section>
+
     <!-- Coast-to-Coast Shipping Section -->
     <section class="shipping-services" id="shipping">
         <div class="section-content">
@@ -85,28 +95,24 @@
             <div class="services-grid">
                 <div class="service-item">
                     <h4>Live Loads</h4>
-                    <p>Reliable and efficient shipping for your everyday needs. Our standard delivery service ensures
-                        your cargo reaches its destination safely and on time. Choose our standard delivery option for a
-                        cost-effective and dependable shipping solution.</p>
-                        <a href="contact.html" class="cta-button">Get a quote</a>
+                    <p>Reliable and efficient shipping for your everyday needs. Our standard delivery service ensures your cargo reaches its destination safely and on time. Choose our standard delivery option for a cost-effective and dependable shipping solution.</p>
+                    <a href="contact.html" class="cta-button">Get a quote</a>
                 </div>
                 <div class="service-item">
                     <h4>Drop and Hook Loads</h4>
-                    <p>Streamline your operations with our efficient drop and hook service. Bypass loading and unloading
-                        delays by simply swapping trailers at our strategically located yards. We provide designated
-                        areas for quick and easy trailer drop-off and pick-up, maximizing your time on the road.</p>
-                        <a href="contact.html" class="cta-button">Get a quote</a>
+                    <p>Streamline your operations with our efficient drop and hook service. Bypass loading and unloading delays by simply swapping trailers at our strategically located yards. We provide designated areas for quick and easy trailer drop-off and pick-up, maximizing your time on the road.</p>
+                    <a href="contact.html" class="cta-button">Get a quote</a>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Drive Your Future Section -->
     <section class="drive-future" id="driving">
         <div class="section-content">
             <h2>Drive Your Future</h2>
             <h3>Drive with our company and Experience the Best of Trucking</h3>
-            <p>"We're more than just a trucking company – we're a family. At our company, we value our drivers and offer
-                competitive pay, excellent benefits, and the support you need to succeed on the road."</p>
+            <p>"We're more than just a trucking company – we're a family. At our company, we value our drivers and offer competitive pay, excellent benefits, and the support you need to succeed on the road."</p>
             <div class="drive-image">
                 <img src="./assets/drive-future.png" alt="Driver Image">
                 <img src="./assets/drive-future2.png" alt="Driver Image">
@@ -114,8 +120,7 @@
             <div class="drive-grid">
                 <div class="drive-item">
                     <h4>Company Drivers</h4>
-                    <p>Company drivers, your dedication, resilience, and hard work keep us all moving forward. Check out
-                        our offer!</p>
+                    <p>Company drivers, your dedication, resilience, and hard work keep us all moving forward. Check out our offer!</p>
                     <ul>
                         <li>Earn a weekly income of $2,000 to $3,500.</li>
                         <li>Drive the 2020+ Volvo and Freightliners.</li>
@@ -127,8 +132,7 @@
                 </div>
                 <div class="drive-item">
                     <h4>Owner Operators</h4>
-                    <p>Our success wouldn’t be possible without you, owner-operators. We highly value your experience
-                        and strive to provide equally valuable rewards.</p>
+                    <p>Our success wouldn’t be possible without you, owner-operators. We highly value your experience and strive to provide equally valuable rewards.</p>
                     <ul>
                         <li>Earn up to $12,000 weekly, with 85% of the gross as your income.</li>
                         <li>24/7 back-office support.</li>
@@ -139,10 +143,10 @@
                     <a href="contact.html" class="cta-button">Apply Now</a>
                 </div>
             </div>
-            <p class="additional-text">Going forward, a new normal that has evolved from generation. Moving your
-                products across all borders.</p>
+            <p class="additional-text">Going forward, a new normal that has evolved from generation. Moving your products across all borders.</p>
         </div>
     </section>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
@@ -151,23 +155,6 @@
                     <span>UIIA CARGO INC</span>
                 </div>
                 <p>We are glad to help you. The information on this website is copyrighted.</p>
-                <!-- <div class="social-links">
-                    <h4>Follow us</h4>
-                    <a href="#telegram" class="social-icon telegram">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff" width="24px"
-                            height="24px">
-                            <path
-                                d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.024 0-.048-.002-.072-.006-.39-.057-.98-.396-.98-.396l.16-3.086 5.585-5.027c.245-.22.023-.538-.31-.356L7.88 13.53l-2.99-.859c-.645-.19-.324-.958.535-1.348l11.67-4.503c.528-.198.99.13.798.606z" />
-                        </svg>
-                    </a>
-                    <a href="#instagram" class="social-icon instagram">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff" width="24px"
-                            height="24px">
-                            <path
-                                d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm3.441 4.5H8.559c-2.206 0-4 1.794-4 4v6.882c0 2.206 1.794 4 4 4h6.882c2.206 0 4-1.794 4-4V8.5c0-2.206-1.794-4-4-4zm-3.441 11.5c-2.485 0-4.5-2.015-4.5-4.5s2.015-4.5 4.5-4.5 4.5 2.015 4.5 4.5-2.015 4.5-4.5 4.5zm4.5-7.5c-.552 0-1-.448-1-1s.448-1 1-1 1 .448 1 1-.448 1-1 1z" />
-                        </svg>
-                    </a>
-                </div> -->
             </div>
             <div class="footer-right">
                 <div class="contact-info">
@@ -176,23 +163,73 @@
                     <p>2583 Center Rd.</p>
                     <p>Hinckley, OH 44233</p>
                 </div>
-                <!-- <div class="footer-links">
-                    <a href="#privacy">Privacy Policy</a>
-                    <a href="#accessibility">Accessibility Statement</a>
-                </div> -->
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Email *" required>
-                    <label><input type="checkbox"> Yes, subscribe me to your newsletter. *</label>
-                    <button type="submit" class="cta-button">Submit</button>
+                <form class="newsletter-form" name="newsletter-subscription">
+                    <input type="email" name="email" class="email-field" placeholder="Email *" required>
+                    <label>
+                        <input type="checkbox" name="subscribe" required> Yes, subscribe me to your newsletter. *
+                    </label>
+                    <input type="submit" value="Submit" class="cta-button">
                 </form>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2025 UIIA CARGO INC. All Rights Reserved | <a href="privasy.html">Privacy & Policy</a> | <a
-                    href="terms.html">Terms & Conditions</a></p>
+            <p>© 2025 UIIA CARGO INC. All Rights Reserved | <a href="privacy.html">Privacy & Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
         </div>
     </footer>
-    <script src="script.js"></script>
-</body>
 
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbxcbr3bepfoNOM14arJhDKhp3XI0ICELEJfD7btJVj9wbzrGgN3_kyHAGqvniRzj15GZA/exec";
+
+        // Newsletter Form
+        const newsletterForm = document.querySelector('.newsletter-form');
+        const newsletterSubmitButton = newsletterForm.querySelector('input[type="submit"]');
+
+        newsletterForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+            newsletterSubmitButton.disabled = true;
+            newsletterSubmitButton.style.cursor = "not-allowed";
+
+            const emailField = newsletterForm.querySelector('.email-field');
+            const email = emailField.value;
+            const subscribeCheckbox = newsletterForm.querySelector('input[name="subscribe"]');
+            const subscribe = subscribeCheckbox.checked ? "Yes" : "No";
+
+            if (email) {
+                fetch(scriptURL, {
+                    method: 'POST',
+                    body: new URLSearchParams({
+                        'email': email,
+                        'subscribe': subscribe
+                    }),
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                    .then(response => response.text())
+                    .then(data => {
+                        console.log("Newsletter Form Response:", data);
+                        if (data.trim() === "Success") {
+                            swal("Thank you for subscribing!", "You have successfully subscribed to our newsletter.", "success");
+                            newsletterForm.reset();
+                        } else {
+                            swal("Error", "Something went wrong: " + data, "error");
+                        }
+                    })
+                    .catch(error => {
+                        console.error("Newsletter Form Error:", error);
+                        swal("Something went wrong!", "Please try again later.", "error");
+                    })
+                    .finally(() => {
+                        newsletterSubmitButton.disabled = false;
+                        newsletterSubmitButton.style.cursor = "pointer";
+                    });
+            } else {
+                swal("Invalid Email", "Please enter a valid email address.", "warning");
+                newsletterSubmitButton.disabled = false;
+                newsletterSubmitButton.style.cursor = "pointer";
+            }
+        });
+    </script>
+</body>
 </html>
